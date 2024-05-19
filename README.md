@@ -18,13 +18,13 @@ Follow the steps below to run the project on your local machine:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/your-project.git
+    git clone https://github.com/ApelSarkar/Stripe-payment-laravel.git
     ```
 
 2. Change directory to your project:
 
     ```bash
-    cd your-project
+    cd Stripe-payment-laravel
     ```
 
 3. Install Composer dependencies:
@@ -57,8 +57,10 @@ Follow the steps below to run the project on your local machine:
     ```
 
 7. Sign up for a Stripe account and collect API keys from the [Stripe Dashboard](https://dashboard.stripe.com/test/apikeys).
+8. Test card for a Stripe account payment from the [Stripe test card](https://docs.stripe.com/testing).
 
-8. Set up the Stripe API keys in the `.env` file:
+
+9. Set up the Stripe API keys in the `.env` file:
 
     ```plaintext
     STRIPE_KEY=your_stripe_publishable_key
